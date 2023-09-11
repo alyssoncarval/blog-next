@@ -66,3 +66,5 @@ export default async function SlugPage({
     </div>
   );
 }
+
+export const revalidate = 60
